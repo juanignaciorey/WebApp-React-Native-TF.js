@@ -18,7 +18,7 @@ _Consta de dos partes. Un API Rest Nodejs para ejecutar el modelo, y un front-en
 
 _Con TensorFlow.js, convertimos nuestros modelos de TensorFlow o Keras previamente entrenados en JavaScript para que se ejecuten en el navegador a través de la aplicación. Luego, tenemos una aplicación multiplataforma donde los usuarios pueden clasificar imágenes seleccionadas localmente o tomadas con la cámara de su dispositivo móvil. La aplicación usa TensorFlow.js y un modelo previamente entrenado convertido al formato TensorFlow.js para proporcionar las capacidades de inferencia. Este modelo se guarda localmente en el navegador usando IndexedDB, y se usa un trabajador de servicio para proporcionar capacidades sin conexión._
 
-![work flow]()
+![work flow](https://d3bgxec5qvatpb.cloudfront.net/wp-content/uploads/2020/07/create-a-progressive-web-application-for-offline-image-classification-2048x1128.png)
 
 1. Un modelo Keras/TensorFlow previamente entrenado se convierte al formato compatible con la web TensorFlow.js e integrado con la aplicación. Te interesa ver como ésta entrenado? [te paso el enlace a una PoC en Python y google Colab](https://)
 2. El usuario inicia la aplicación web progresiva.
